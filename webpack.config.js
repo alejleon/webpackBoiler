@@ -1,4 +1,5 @@
 const path = require('path');
+const htmlPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 
 module.exports = {
@@ -48,7 +49,8 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin({
       filename: "bundle.css"
-    })
+    }),
+    new htmlPlugin({template: './public/index.html'})
   ],
 
   mode: 'development'
