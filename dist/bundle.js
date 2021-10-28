@@ -7,73 +7,26 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./index.js":
 /*!******************!*\
   !*** ./index.js ***!
   \******************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home_al_linux_webpackBoiler_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.scss */ \"./styles.scss\");\n\nconsole.log(\"hello world\");\n\n//# sourceURL=webpack://webpackboiler/./index.js?");
-
-/***/ }),
-
-/***/ "./styles.scss":
-/*!*********************!*\
-  !*** ./styles.scss ***!
-  \*********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpackboiler/./styles.scss?");
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nSyntaxError: /home/al/linux/webpackBoiler/index.js: Support for the experimental syntax 'jsx' isn't currently enabled (9:17):\\n\\n\\u001b[0m \\u001b[90m 7 |\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 8 |\\u001b[39m\\u001b[0m\\n\\u001b[0m\\u001b[31m\\u001b[1m>\\u001b[22m\\u001b[39m\\u001b[90m 9 |\\u001b[39m \\u001b[33mReactDOM\\u001b[39m\\u001b[33m.\\u001b[39mrender(\\u001b[33m<\\u001b[39m\\u001b[33mApp\\u001b[39m\\u001b[33m/\\u001b[39m\\u001b[33m>\\u001b[39m\\u001b[33m,\\u001b[39m document\\u001b[33m.\\u001b[39mgetElementById(\\u001b[32m'root'\\u001b[39m))\\u001b[33m;\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m   |\\u001b[39m                 \\u001b[31m\\u001b[1m^\\u001b[22m\\u001b[39m\\u001b[0m\\n\\nAdd @babel/preset-react (https://git.io/JfeDR) to the 'presets' section of your Babel config to enable transformation.\\nIf you want to leave it as-is, add @babel/plugin-syntax-jsx (https://git.io/vb4yA) to the 'plugins' section to enable parsing.\\n    at Parser._raise (/home/al/linux/webpackBoiler/node_modules/@babel/parser/lib/index.js:541:17)\\n    at Parser.raiseWithData (/home/al/linux/webpackBoiler/node_modules/@babel/parser/lib/index.js:534:17)\\n    at Parser.expectOnePlugin (/home/al/linux/webpackBoiler/node_modules/@babel/parser/lib/index.js:3565:18)\\n    at Parser.parseExprAtom (/home/al/linux/webpackBoiler/node_modules/@babel/parser/lib/index.js:11814:20)\\n    at Parser.parseExprSubscripts (/home/al/linux/webpackBoiler/node_modules/@babel/parser/lib/index.js:11414:23)\\n    at Parser.parseUpdate (/home/al/linux/webpackBoiler/node_modules/@babel/parser/lib/index.js:11394:21)\\n    at Parser.parseMaybeUnary (/home/al/linux/webpackBoiler/node_modules/@babel/parser/lib/index.js:11369:23)\\n    at Parser.parseMaybeUnaryOrPrivate (/home/al/linux/webpackBoiler/node_modules/@babel/parser/lib/index.js:11183:61)\\n    at Parser.parseExprOps (/home/al/linux/webpackBoiler/node_modules/@babel/parser/lib/index.js:11190:23)\\n    at Parser.parseMaybeConditional (/home/al/linux/webpackBoiler/node_modules/@babel/parser/lib/index.js:11160:23)\");\n\n//# sourceURL=webpack://webpackboiler/./index.js?");
 
 /***/ })
 
 /******/ 	});
 /************************************************************************/
-/******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
-/******/ 	
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/ 		// Check if module is in cache
-/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
-/******/ 		if (cachedModule !== undefined) {
-/******/ 			return cachedModule.exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			// no module.id needed
-/******/ 			// no module.loaded needed
-/******/ 			exports: {}
-/******/ 		};
-/******/ 	
-/******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/ 	
-/************************************************************************/
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/************************************************************************/
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./index.js");
+/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./index.js"]();
 /******/ 	
 /******/ })()
 ;
