@@ -1,0 +1,16 @@
+import React from 'react';
+import './app.css';
+
+const App = () => {
+  console.log('Yooooo! It\'s working!')
+
+  return(
+    <div className='container'>
+      <div className="header">
+        <h1>Welcome to React Application</h1>
+      </div>
+    </div>
+  )
+}
+
+export default App;
