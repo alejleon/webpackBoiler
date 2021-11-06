@@ -15,7 +15,7 @@ module.exports = {
         use: ['babel-loader']
       },
       {
-        test: /\.(css)$/,
+        test: /\.(css|sass|scss)$/,
         use: ['style-loader', 'css-loader', 'sass-loader']
       }
     ],
@@ -24,6 +24,8 @@ module.exports = {
   resolve: {
     extensions: ['*', '.js', '.jsx']
   },
+
+  plugins: [new MiniCssExtractPlugin()],
 
   output: {
     path: path.resolve(__dirname, './public'),
