@@ -1,14 +1,15 @@
 .container {
   height: 100vh;
-  background-color: #e7e3eb;
+  background-color: #4d4d4d;
   .header {
     padding: 15px 20px;
-    background-color: #6200EE;
+    background-color: rgb(44, 176, 199);
     h1 {
+
       color: #fff;
     }
   }
-  .react-logo {
+  .reactLogo {
     background: url('../assets/images/react_logo.png') no-repeat center;
     height: 500px;
     width: 500px;

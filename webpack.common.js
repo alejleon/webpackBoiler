@@ -1,5 +1,5 @@
 const path = require('path');
-const htmlPlugin = require('html-webpack-plugin')
+// const htmlPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 
 module.exports = {
@@ -19,10 +19,14 @@ module.exports = {
         use: ['style-loader', 'css-loader', 'sass-loader']
       },
       {
-        test: /\.(woff|woff2|eot|ttf|svg|jpg|png)$/,
+        test: /\.(woff|woff2|eot|ttf)$/,
         use: {
           loader: 'url-loader'
         },
+      },
+      {
+        test: /\.(svg|png|jpg)$/,
+        type: 'asset/resource',
       },
     ],
   },
