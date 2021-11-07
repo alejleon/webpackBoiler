@@ -8,4 +8,14 @@
       color: #fff;
     }
   }
+  .react-logo {
+    background: url('../assets/images/react_logo.png') no-repeat center;
+    height: 500px;
+    width: 500px;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }

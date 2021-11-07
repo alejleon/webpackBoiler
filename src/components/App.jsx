@@ -9,6 +9,7 @@ const App = () => {
       <div className="header">
         <h1>Welcome to React Application</h1>
       </div>
+      <div className='react-logo'></div>
     </div>
   )
 }
