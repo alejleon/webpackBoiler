@@ -39,8 +39,7 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname, './public'),
-    filename: 'bundle.js',
-    clean: true,
+    filename: 'bundle.js'
   },
 
   devServer: {
