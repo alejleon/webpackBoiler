@@ -5,8 +5,8 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 module.exports = {
 
   entry: path.resolve(__dirname, './src/index.js'),
-  mode: 'development',
-  devtool: 'eval-source-map',
+  // mode: 'development',
+  // devtool: 'eval-source-map',
   module: {
     rules: [
       {
@@ -42,10 +42,10 @@ module.exports = {
     filename: 'bundle.js'
   },
 
-  devServer: {
-    static: path.resolve(__dirname, './public'),
-    hot: true
-  },
+  // devServer: {
+  //   static: path.resolve(__dirname, './public'),
+  //   hot: true
+  // },
 
   // module: {
   //   rules: [
