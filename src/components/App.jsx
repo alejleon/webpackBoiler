@@ -2,7 +2,6 @@ import React from 'react';
 import './app.scss';
 
 const App = () => {
-  console.log('Yooooo! It\'s working!')
 
   return(
     <div className='container'>
