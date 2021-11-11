@@ -5,8 +5,6 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 module.exports = {
 
   entry: path.resolve(__dirname, './src/index.js'),
-  // mode: 'development',
-  // devtool: 'eval-source-map',
   module: {
     rules: [
       {
@@ -41,52 +39,4 @@ module.exports = {
     path: path.resolve(__dirname, './public'),
     filename: 'bundle.js'
   },
-
-  // devServer: {
-  //   static: path.resolve(__dirname, './public'),
-  //   hot: true
-  // },
-
-  // module: {
-  //   rules: [
-  //     {
-  //       test: /\.js$/,
-  //       exclude: /(node_modules)/,
-  //       use: {
-  //         loader: 'babel-loader',
-  //         options: {
-  //           presets: ['@babel/preset-env']
-  //         }
-  //       }
-  //     },
-  //     {
-  //       test: /\.(sa|sc|s)ss$/,
-  //       use: [
-  //         {
-  //           loader: MiniCssExtractPlugin.loader
-  //         },
-  //         {
-  //           loader: "css-loader"
-  //         },
-  //         {
-  //           loader: "postcss-loader",
-  //         },
-  //         {
-  //           loader: "sass-loader",
-  //           options: {
-  //             implementation: require("sass")
-  //           }
-  //         }
-  //       ]
-  //     }
-  //   ]
-  // },
-  // plugins: [
-  //   new MiniCssExtractPlugin({
-  //     filename: "bundle.css"
-  //   }),
-  //   new htmlPlugin({template: './public/index.html'})
-  // ],
-
-  // mode: 'development'
 }

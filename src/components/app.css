@@ -1,0 +1,25 @@
+.container {
+  height: 100vh;
+  background-color: #4d4d4d;
+}
+
+.header {
+  padding: 15px 20px;
+  background-color: rgb(44, 176, 199);
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.reactLogo {
+  background: url('../assets/images/react_logo.png') no-repeat center;
+  height: 500px;
+  width: 500px;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
