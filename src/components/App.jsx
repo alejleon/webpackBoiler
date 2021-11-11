@@ -1,5 +1,5 @@
 import React from 'react';
-import './app.scss';
+import './app.scss'; // <----- rename extenseion to ".css" for css
 
 const App = () => {
   console.log('Yooooo! It\'s working!')
